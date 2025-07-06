@@ -1,3 +1,22 @@
-/downloads
+# 🐍 Python bytecode and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# 📦 Virtual environments
+env/
+venv/
+.venv/
+
+# 🔐 API keys and sensitive files
 .env
-*.mp4
+
+# 📂 Block all generated scripts and media
+assets/scripts/
+assets/audio/
+assets/video
+/Lib
+/Scripts
+.cfg
+client_secret.json
+token.json
