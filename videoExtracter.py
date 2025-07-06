@@ -46,6 +46,8 @@ def download_first_valid_video(video_urls, output_dir):
         "outtmpl": os.path.join(output_dir, "downloaded.%(ext)s"),
         "quiet": True,
         "noplaylist": True,
+        # 🪄 👇 ABSOLUTE FFmpeg path fix!
+        "ffmpeg_location": r"C:\ffmpeg-7.1.1-full_build\bin\ffmpeg.exe"
     }
 
     for url in video_urls:
